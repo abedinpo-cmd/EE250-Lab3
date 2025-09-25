@@ -17,3 +17,5 @@ Question 3: What is one common REST Method not used in our mail server? How coul
 Our mail server does not use PUT. It can be used to edit existing mail entries. The client would send a JSON body with updated fields, and the server would replace the old entry.
 
 Question 4: Why are API keys used for many RESTful APIs? What purpose do they serve? Make sure to cite any online resources you use to answer this question!
+
+API keys provide a simple way to authenticate clients when using a REST API. The server generates a unique key for a new client, and the client must include this key with each request. The server checks the key to verify the client’s identity before allowing access to resources. (https://aws.amazon.com/what-is/restful-api/)
