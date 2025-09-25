@@ -14,6 +14,6 @@ The resources are the mail entries.
 
 Question 3: What is one common REST Method not used in our mail server? How could we extend our mail server to use this method?
 
-
+Our mail server does not use PUT. It can be used to edit existing mail entries. The client would send a JSON body with updated fields, and the server would replace the old entry.
 
 Question 4: Why are API keys used for many RESTful APIs? What purpose do they serve? Make sure to cite any online resources you use to answer this question!
