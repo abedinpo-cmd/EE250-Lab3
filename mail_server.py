@@ -206,4 +206,4 @@ def get_sent_route(sender: str):
 
 
 if __name__ == '__main__':
-    app.run(port=5000, debug=True)
+    app.run(host="192.168.0.205",port=3000, debug=True)
